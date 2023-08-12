@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="/css/Style.css" type="text/css">
+  </head>
+  <body>
+    <h1 id="HomeHeading">Spotify</h1>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+
+    <!-- Navigation bar -->
+    <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+          <a class="navbar-brand" href="/Html/Home.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Spotify
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Html/Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Html/favorites.html">favorites</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Top Artists
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/Html/TopArtists/JustinBieber.html">Justin Bieber</a></li>
+                  <li><a class="dropdown-item" href="/Html/TopArtists/YoungTheGiant.html">Young the Giant</a></li>
+                  <li><a class="dropdown-item" href="/Html/TopArtists/Drake.html">Drake</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/Html/TopArtists/LastMonth.html">Last Month</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="/Html/Feedback.html">feedback</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Image slider -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://firstory.blog/wp-content/uploads/2022/02/Black-Moon-Blog-Banner-1024x576.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="SliderText">PODCAST</h5>
+              <p id="SliderText">Spotify is one of the biggest podcast listening platforms on the planet</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.dribbble.com/users/68947/screenshots/14850442/media/7b96a931ec69d17d1827c0bce840af18.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="SliderText">Justin Bieber</h5>
+              <p id="SliderText">Justin Bieber becomes first artist in Spotify history to cross 90 million monthly listeners</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.izotope.com/en/learn/spotify-for-artists-tips-to-build-your-spotify-artist-profile-and-presence/_jcr_content/root/sectioncontainer_main/flexcontainer/flexcontainer_center/flexcontainer_center_top/image_1003297270.coreimg.82.1280.png/1590827656954/spotify-artist-profile-body-image.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="SliderText">Young the Giant</h5>
+              <p id="SliderText">Young the Giant is an American rock band that formed in Irvine, California, in 2004.</p>
+            </div>          
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      
+  </body>
+</html>
